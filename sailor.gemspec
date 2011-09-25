@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'dm-core'
   s.add_dependency 'dm-yaml-adapter'
+  s.add_dependency 'dm-validations'
 
   s.add_development_dependency 'rspec', '~> 2.6.0'
   s.add_development_dependency 'guard-rspec'
