@@ -1,3 +1,3 @@
 guard 'rspec' do
-  watch('*') { 'spec' }
+  watch('.*') { 'spec' }
 end
