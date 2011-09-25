@@ -9,5 +9,5 @@ require 'dm-validations'
 file = File.expand_path("~/.sailor/database")
 DataMapper.setup(:default, "yaml://#{file}")
 
-require 'sailor/cli'
-require 'sailor/server'
+require_relative 'sailor/cli'
+require_relative 'sailor/server'
